@@ -1,0 +1,16 @@
+Name: Andrew Zeringue
+
+Course: 2-D Game Design
+
+Clemson Email Address: azering@clemson.edu
+
+Final Project: #6
+
+Project due date: May 1st, 2019 at 8 AM
+
+Project description: In my game, you run around fighting small flying alients. The main controls are WASD and space bar, with other controls listed. I was planning on adding some sort of health mechanic but was unable to work it in due to time constraints. Along with this, I ended up using music from another source because I think it fit my game better. The assets I used were from Hollow Knight(Floor), Super Metroid(Player, Enemies), and Google(Background). For music, I used sound effects from your repo and then a song from Legend of Zelda. I tried implementing the changes to the sprite class and they ended up breaking my code and I had to revert back to before I made them. God mode normally works, occassionally it won't respond to key press.
+
+The Pizzazz feature that I added: I added lighting to the background to give a better atmosphere for my game since I ended up going with a space like theme.
+
+
+

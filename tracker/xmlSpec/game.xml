@@ -1,0 +1,118 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>20</period>
+
+<maxFrames>300</maxFrames>
+<username>malloy</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+  <loc x="30" y="30"/>
+</view>
+
+<world>
+  <width>1200</width>
+  <height>500</height>
+</world>
+
+<stage>
+  <file>assets/floor.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</stage>
+<hills>
+  <file>assets/Background.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</hills>
+
+<mountain>
+  <file>assets/mountain.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</mountain>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>14</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<numberOfLights>1</numberOfLights>
+<lightSpec lightX1="450" lightY1="200" lightZ1="100" />
+<!-- larger noneffectiveLighting the smaller the radius of the light -->
+<noneffectiveLighting>100000</noneffectiveLighting>
+<ambientLighting>10000</ambientLighting>
+<brightness>15000000</brightness>
+<diffuseGrid>
+   <x>6</x>
+   <y>6</y>
+</diffuseGrid>
+
+<Samus>
+  <file>assets/Samus.png</file>
+  <startLoc x="400" y="320"/>
+  <bulletName>bullet</bulletName>
+  <frames>8</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <scale>1.0</scale>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</Samus>
+
+<Metroid>
+  <file>assets/Metroid.png</file>
+  <startLoc x="527" y="240"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <scale>1.0</scale>
+  <frames>2</frames>
+  <frameInterval>104</frameInterval>
+  <bulletName>bullet</bulletName>
+  <safeDistance>100</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</Metroid>
+
+<bullet>
+  <file>assets/bullet.png</file>
+  <startLoc x="227" y="240"/>
+  <speed x = "300" y = "300"/>
+  <speedX>300</speedX>
+  <speedY>1000</speedY>
+  <interval>700</interval>
+  <distance>320</distance>
+  <scale>1.0</scale>
+  <transparency>false</transparency>
+</bullet>
+
+<display>
+  <startLoc x="30" y="70"/>
+  <!-- number of times the bar is decremented -->
+  <increment>10</increment>
+  <interval>1000</interval>
+  <width>200</width>
+  <height>15</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <scale>1.0</scale>
+</display>
+</GameData>
